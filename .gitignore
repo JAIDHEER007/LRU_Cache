@@ -3,3 +3,4 @@
 img
 memory_traces
 __pycache__ 
+*.zip
