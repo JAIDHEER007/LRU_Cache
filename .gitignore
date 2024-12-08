@@ -1,6 +1,17 @@
-1KB_64B
-32MB_4B
-img
 memory_traces
 __pycache__ 
 *.zip
+Test_Simulations
+
+# Trace Files
+1KB_64B
+4MB_4B
+32MB_4B
+bw_mem.traces.txt
+gcc.trace.txt
+ls.trace.txt
+memory_traces.zip
+naive_dgemm.trace.txt
+naive_dgemm_full.trace.txt
+openblas_dgemm.trace.txt
+openblas_dgemm_full.trace.txt
