@@ -3,6 +3,8 @@ __pycache__
 *.zip
 Test_Simulations
 
+credentials.json
+
 # Trace Files
 1KB_64B
 4MB_4B
@@ -15,3 +17,4 @@ naive_dgemm.trace.txt
 naive_dgemm_full.trace.txt
 openblas_dgemm.trace.txt
 openblas_dgemm_full.trace.txt
+
