@@ -2,7 +2,7 @@ import os
 import time
 import itertools
 import csv
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # type: ignore
 from datetime import datetime
 from simulator import CacheSimulator 
 
@@ -133,10 +133,10 @@ def plot_results(results, test_dir, trace_file):
 if __name__ == "__main__":
     test_cases = [
         {
-            "trace_file": "ls.trace.txt",
+            "trace_file": "gcc.trace.txt",
             "cache_sizes": [1024, 2048, 32768, 4194304], 
-            "line_sizes": [64], 
-            "ways": [16], 
+            "line_sizes": [64, 32, 16], 
+            "ways": [16, 8], 
             "replacement_policies": ["LRU", "FIFO", "LFU"]
         }
     ]
