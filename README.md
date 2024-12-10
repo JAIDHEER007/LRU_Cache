@@ -1,6 +1,6 @@
 Group 9: Jaidheer Sirigineedi, Anshu Tripathi, G Mary Spandana
 
-**Cache Simulator Project**
+# Cache Simulator Project
 
 
 **Project Objective:**
