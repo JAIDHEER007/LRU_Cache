@@ -17,4 +17,8 @@ naive_dgemm.trace.txt
 naive_dgemm_full.trace.txt
 openblas_dgemm.trace.txt
 openblas_dgemm_full.trace.txt
+*.docx
+*.xlsx
+cache_sim
+Flow_Diagram.svg
 
